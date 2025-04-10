@@ -43,7 +43,8 @@ const Banner = () => {
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
           <span className="tagline">Welcome to My Portfolio</span>
-            <h1> {`Hi I'm webcoded `} <span className="wrap">{text}</span></h1>
+            <h1> {`Hi I'm webcoded `} <br />
+               <span className="wrap">{text}</span></h1>
             <p>
               I'm a passionate developer with a knack for creating dynamic and
               responsive web applications.
@@ -53,7 +54,8 @@ const Banner = () => {
             </button>
           </Col>
           <Col xs={12} md={6} xl={5}>
-            <img src="assets/header-img.svg" alt="Banner Image" />
+            {/* <img src="assets/header-img.svg" alt="Banner Image" /> */}
+            <img src="assets/photo1.webp" alt="Banner Image" />
           </Col>
         </Row>
       </Container>
